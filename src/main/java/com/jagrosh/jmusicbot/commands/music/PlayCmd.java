@@ -73,7 +73,7 @@ public class PlayCmd extends MusicCommand
                     event.replySuccess("Возобновлен **"+handler.getPlayer().getPlayingTrack().getInfo().title+"**.");
                 }
                 else
-                    event.replyError("Только ди-джеи могут отключить проигрыватель!");
+                    event.replyError("Только DJ может отключить проигрыватель!");
                 return;
             }
             StringBuilder builder = new StringBuilder(event.getClient().getWarning()+" Команды воспроизведения:\n");
