@@ -25,7 +25,7 @@ public abstract class OwnerCommand extends Command
 {
     public OwnerCommand()
     {
-        this.category = new Category("Owner");
+        this.category = new Category("Владелец");
         this.ownerCommand = true;
     }
 }
