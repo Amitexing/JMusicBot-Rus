@@ -3,7 +3,7 @@
 # JMusicBot на русском
 
 [![Downloads](https://img.shields.io/github/downloads/jagrosh/MusicBot/total.svg)](https://github.com/Amitexing/JMusicBot-Rus/releases/latest)
-[![Stars](https://img.shields.io/github/stars/jagrosh/MusicBot.svg)](https://github.com/jagrosh/MusicBot/stargazers)
+[![Stars](https://img.shields.io/github/stars/jagrosh/MusicBot.svg)](https://github.com/Amitexing/JMusicBot-Rus/stargazers)
 [![Release](https://img.shields.io/github/release/jagrosh/MusicBot.svg)](https://github.com/Amitexing/JMusicBot-Rus/releases/latest)
 [![License](https://img.shields.io/github/license/jagrosh/MusicBot.svg)](https://github.com/Amitexing/JMusicBot-Rus/blob/master/LICENSE)
 [![Discord](https://discordapp.com/api/guilds/147698382092238848/widget.png)](https://discord.gg/0p9LSGoRLu6Pet0k)<br>
@@ -28,7 +28,7 @@
  * Поддержка плейлистов (как веб / youtube, так и локальных)
 
 ## Поддерживаемые источники и форматы
-JMusicBot поддерживает все исходники и форматы, поддерживаемые [lavaplayer](https://github.com/sedmelluq/lavaplayer#supported-formats ):
+JMusicBot поддерживает все источники и форматы, поддерживаемые [lavaplayer](https://github.com/sedmelluq/lavaplayer#supported-formats ):
 ### Источники
  * YouTube
  * SoundCloud
@@ -50,8 +50,20 @@ JMusicBot поддерживает все исходники и форматы, 
 ## Пример
 ![Пример загрузки...](https://i.imgur.com/kVtTKvS.gif)
 
+## Протестировать бота
+Вы можете протестировать бота на [Discord сервере Anicloud](https://discord.gg/A7zrZ5Y )
+
 ## Установка
+1. Установите Java (Бот написан под Java 16)
+2. Скачайте или скомпилируйте последний JMusicBot-Rus-X.Y.Z.jar (После компиляции .jar файл будет называться JMusicBot-Rus-X.Y.Z-All.jar)
+3. Запуск бота
+ 3.1 На Windows просто откройте файл двойным кликом
+ 3.2 Используйте команду для запуска java -Dnogui=true -jar JMusicBot-Rus-X.Y.Z.jar
+ 3.3 Используйте команду для запуска nohup java -Dnogui=true -jar JMusicBot-X.Y.Z.jar & для запуска в фоновом режиме (Только для Linux)
+4. Следуюйте инструкциям в консоли или заполните config.txt
+
 Пожалуйста, ознакомьтесь с [Страница настройки](https://jmusicbot.com/setup ), чтобы запустить этого бота самостоятельно!
+
 
 ## Вопросы/Предложения/Сообщения об ошибках
 **Пожалуйста, ознакомьтесь с [Списком проблем](https://github.com/jagrosh/MusicBot/issues ), прежде чем предлагать функцию **. Если у вас есть вопрос, вам нужна помощь в устранении неполадок или вы хотите провести мозговой штурм новой функции, пожалуйста, начните [Обсуждение](https://github.com/jagrosh/MusicBot/discussions ). Если вы хотите предложить функцию или сообщить о воспроизводимой ошибке, пожалуйста, откройте [Проблема](https://github.com/jagrosh/MusicBot/issues ) в этом репозитории. Если вам нравится этот бот, обязательно добавьте звездочку к библиотекам, которые делают это возможным: [**JDA**](https://github.com/DV8FromTheWorld/JDA ) и [**lavaplayer**](https://github.com/sedmelluq/lavaplayer )!
